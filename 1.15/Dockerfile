@@ -1,4 +1,4 @@
-FROM centos/s2i-base-centos7
+FROM registry.fedoraproject.org/f33/s2i-base:latest
 
 ENV NAME=golang \
     VERSION=1.15 \
